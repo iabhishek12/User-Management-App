@@ -3,6 +3,7 @@ import { useParams, useNavigate } from "react-router-dom";
 import { getUser, updateUser } from "../API/Api";
 import UserForm from "../Components/UserForm";
 import Spinner from "../utility/Spinner";
+import toast from "react-hot-toast";
 
 const EditUser = () => {
   const { id } = useParams();
