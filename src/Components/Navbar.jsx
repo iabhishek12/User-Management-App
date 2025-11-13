@@ -22,8 +22,8 @@ const Navbar = () => {
 
         {/* Desktop Menu */}
         <div className="hidden md:flex space-x-4 items-center">
-          <Link to="/" className="hover:underline">Home</Link>
-          <Link to="/add" className="hover:bg-black/80 p-3 rounded bg-black transition-colors">
+          <Link to="/" className="hover:underline text-xl font-bold">Home</Link>
+          <Link to="/add" className="hover:bg-black/80 p-3 font-bold rounded bg-black transition-colors">
             Add User
           </Link>
         </div>

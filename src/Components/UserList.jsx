@@ -33,13 +33,13 @@ const UserList = ({ users, onDelete }) => {
                 <td className="border px-4 py-2 space-x-2">
                   <Link
                     to={`/edit/${user.id}`}
-                    className="bg-yellow-400 px-3 py-1 rounded hover:bg-yellow-500"
+                    className="bg-black text-white px-3 py-1 rounded hover:bg-black/80"
                   >
                     Edit
                   </Link>
                   <Link
                     to={`/view/${user.id}`}
-                    className="bg-green-400 px-3 py-1 rounded hover:bg-green-500"
+                    className="bg-blue-400 px-3 py-1 rounded hover:bg-blue-500"
                   >
                     View
                   </Link>
